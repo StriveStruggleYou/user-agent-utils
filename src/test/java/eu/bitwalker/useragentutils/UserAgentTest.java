@@ -69,3 +69,6 @@ public class UserAgentTest {
 	}
 	
 }
+
+ /*local headers = ngx.req_get_headers();
+                ngx.say("user-agent : ", headers["user-agent"], "<br/>");*/

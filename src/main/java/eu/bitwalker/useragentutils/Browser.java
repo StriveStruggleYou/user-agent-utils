@@ -485,7 +485,7 @@ public enum Browser {
         return Utils.contains(agentStringLowerCase, aliases);
     }
 
-    private Browser checkUserAgentLowercase(String agentLowercaseString) {
+    private Browser  checkUserAgentLowercase(String agentLowercaseString) {
         if (this.isInUserAgentLowercaseString(agentLowercaseString)) {
 
             if (this.children.size() > 0) {

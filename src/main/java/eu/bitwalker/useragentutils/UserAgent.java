@@ -100,6 +100,7 @@ public class UserAgent implements Serializable
 
         OperatingSystem operatingSystem = OperatingSystem.UNKNOWN;
 
+
         // BOTs don't have an interesting OS for us
         if (browser != Browser.BOT)
             operatingSystem = OperatingSystem.parseUserAgentLowercaseString(userAgentLowercaseString);
